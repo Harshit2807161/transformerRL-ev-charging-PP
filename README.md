@@ -51,15 +51,11 @@ Dependencies can be found in the `requirements.txt` file, and they include popul
 
 ### 1. Data Preparation
 The data is already prepared for training! 
-The data files are placed in the `data/` directory. The dataset used in this project consists of historical price data for different time periods, including:
-
-- Past 24 hours
-- Same hour over the last 24 days
-- Same hour on the same weekday over the last 24 weeks
+The data files are placed in the `data/` directory. It consists of historical price data for different time periods.
 
 ### 2. Model Training
 
-#### Transformer Model Training
+#### RL agent Training
 Run the following script to train the transformer-based models (Autoformer, Informer, PatchTST) using Deep-RL agents (this code assumes transformer output is stored in a csv file). You may use our data or preprocess the data according to our framework using your own time-series forecasting model.
 
 ```bash
