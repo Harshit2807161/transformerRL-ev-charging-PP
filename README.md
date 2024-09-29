@@ -1,7 +1,3 @@
-Here’s the updated `README.md` with the correct placeholders for the images in the appropriate sections. You can replace the paths in `figures/` once the images are added.
-
----
-
 # Optimizing In-Home EV Charging with Transformers and Policy-Based DRL
 
 ## Abstract
@@ -140,6 +136,3 @@ The figure shows the cummulative cost analysis of all models across agents. Info
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-
-You can update the image paths with the actual locations after placing the image files into the `figures/` directory.
-
