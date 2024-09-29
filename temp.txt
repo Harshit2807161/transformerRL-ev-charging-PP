@@ -1,0 +1,6 @@
+fig.savefig(pjs(result_dir, f'{pp_model_name}_test_return.png'))
+
+
+python rl.py --model_names=lstm_uni_24_1 --rla_names=dqn_01 --epochs=0 --do_train=0 --do_vis=0
+python rl.py --model_names=lstm_uni_24_1 --rla_names=dqn_01 --epochs=1000 --do_train=1 --do_vis=0
+python rl.py --model_names=lstm_uni_24_1 --rla_names=dqn_01 --test_set=test.csv --epochs=500 --do_train=1 --do_vis=0
