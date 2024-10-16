@@ -1,3 +1,4 @@
+<!--
 # Optimizing In-Home EV Charging with Transformers and Policy-Based DRL
 
 ## Abstract
@@ -71,6 +72,7 @@ ppo_cont_01
 ```
 
 You may change the other input arguments by referring to `rl.py`. Another way to run the RL training without cli is to directly run `main_*.py` files in the repo for any agent. 
+-->
 
 ## License
 
